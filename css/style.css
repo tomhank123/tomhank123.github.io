@@ -11095,7 +11095,7 @@ body {
   font-size: 15px; }
 
 .header-top a {
-  color: #006684 !important;
+  color: #19427b !important;
   text-decoration: none; }
 
 .header-top .nav-item:nth-child(3) {
@@ -11114,7 +11114,7 @@ body {
 
 .header-top .nav-item:nth-child(3),
 .header-top .nav-item:nth-child(4) {
-  background-color: #F4F9FA; }
+  background-color: rgba(25, 66, 123, 0.15); }
 
 .header-nav a, .header-nav .btn-link {
   color: #f8f9fa !important; }
@@ -11122,7 +11122,8 @@ body {
     color: #c8c8c8 !important; }
 
 .header-main {
-  padding: 1.5rem 0; }
+  padding: 1.5rem 0;
+  background-color: rgba(25, 66, 123, 0.15); }
   .header-main .header-logo img {
     max-height: 6rem;
     max-width: 100%; }
@@ -11154,21 +11155,21 @@ body {
     margin-bottom: 0;
     line-height: 0.5; }
   .marketing-message .marketing-body a {
-    color: #006684; }
+    color: #19427b; }
 
 .footer {
   border-top: 10px solid #19427b; }
   .footer .footer-logo {
     height: 7rem; }
   .footer ul > li > a {
-    color: #f8f9fa;
+    color: #19427b;
     text-decoration: none; }
     .footer ul > li > a:hover {
-      color: #19427b; }
+      color: #6c757d; }
 
 .footer-inner {
   padding: 50px 0;
-  background-color: rgba(25, 66, 123, 0.7); }
+  background-color: rgba(25, 66, 123, 0.15); }
 
 .footer-copyright {
   padding: 10px 15px;
