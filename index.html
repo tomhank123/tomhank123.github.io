@@ -6,62 +6,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang chủ</title>
     <!-- Local Style Library -->
+    <link rel="stylesheet" href="./css/lib/slick.min.css">
+
     <link rel="stylesheet" href="./css/style.min.css">
 </head>
 
 <body>
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="header-top border-bottom">
             <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">T-Shirts</a>
+                <div class="d-flex">
+                    <ul class="nav mr-auto">
+                        <li class="nav-item nav-link">
+                            <div class="marketing-message">
+                                <div class="marketing-body">
+                                    <h5>We accept School PO's</h5>
+                                    <a href="#"><small>Request more info</small></a>
+                                </div>
+                            </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sweatshirts</a>
+                        <li class="nav-item nav-link">
+                            <div class="marketing-message">
+                                <div class="marketing-body">
+                                    <h5>No order minimums</h5>
+                                    <small>Always a low price</small>
+                                </div>
+                            </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Polos</a>
+                        <li class="nav-item nav-link">
+                            <a href="">
+                                <div class="marketing-message">
+                                    <div class="marketing-icon">
+                                        <span class="icon icon-shipping"></span>
+                                    </div>
+                                    <div class="marketing-body">
+                                        <h5>FREE SHIPPING</h5>
+                                        <small>on orders over $99</small>
+                                    </div>
+                                </div>
+                            </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Womens</a>
+                        <li class="nav-item nav-link">
+                            <a href="#">
+                                <div class="marketing-message">
+                                    <div class="marketing-icon">
+                                        <span class="icon icon-returns"></span>
+                                    </div>
+                                    <div class="marketing-body">
+                                        <h5>FREE RETURNS</h5>
+                                        <small>on all orders</small>
+                                    </div>
+                                </div>
+                            </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Kids</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Bottoms</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Kids</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Bottoms</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Dress Shirts</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Jackets</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Hats</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Kids</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Accessories</a>
+                    </ul>
+                    <ul class="nav">
+                        <li class="nav-item mt-1">
+                            <a href="#" class="nav-link">sales@shirtspace.com</a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </nav>
+        </div>
+        <div class="header-main">
+            <div class="container">
+                <div class="header-logo">
+                    <a href=".">
+                        <img src="./images/logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">T-Shirts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sweatshirts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Polos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Womens</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Kids</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bottoms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Kids</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bottoms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Dress Shirts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Jackets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hats</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Kids</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Accessories</a>
+                            </li>
+                        </ul>
+                        <button class="btn btn-link">
+                            <i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
+    <section>
+        <div class="variable slider border-bottom">
+            <div class="card text-center border-0">
+                <img class="" src="./images/banner-3.jpg" class="w-100">
+            </div>
+            <div class="card text-center border-0">
+                <img class="" src="./images/banner-3.jpg" class="w-100">
+            </div>
+            <div class="card text-center border-0">
+                <img class="" src="./images/banner-3.jpg" class="w-100">
+            </div>
+        </div>
+    </section>
     <div class="wrapper py-5">
         <section class="section section-categories">
             <div class="container">
@@ -259,9 +342,20 @@
     <script src="./js/lib/bootstrap.min.js"></script>
 
     <!-- Local JS Library -->
+    <script src="./js/lib/slick.min.js"></script>
     <script src="./js/quasoft.min.js"></script>
-
-    <script>
+    <script type="text/javascript">
+        $(document).on('ready', function () {
+            $(".variable").slick({
+                dots: true,
+                arrows: false,
+                infinite: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000
+            });
+        });
         const product = (() => {
             const renderSection = () => {
                 const section = document.querySelectorAll('.product-list');
