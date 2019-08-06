@@ -11098,24 +11098,6 @@ body {
   color: #19427b !important;
   text-decoration: none; }
 
-.header-top .nav-item:nth-child(3) {
-  position: relative; }
-  .header-top .nav-item:nth-child(3):after {
-    content: '';
-    display: inline-block;
-    position: absolute;
-    width: 1px;
-    height: 25px;
-    right: 0;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    background-color: #dee2e6; }
-
-.header-top .nav-item:nth-child(3),
-.header-top .nav-item:nth-child(4) {
-  background-color: rgba(25, 66, 123, 0.15); }
-
 .header-nav a, .header-nav .btn-link {
   color: #f8f9fa !important; }
   .header-nav a:hover, .header-nav .btn-link:hover {
@@ -11134,7 +11116,7 @@ body {
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  margin-top: 5px; }
+  height: 100%; }
   .marketing-message .marketing-icon {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -11150,26 +11132,42 @@ body {
           -ms-flex: 1 0 0px;
               flex: 1 0 0;
       margin-left: 15px; }
-  .marketing-message .marketing-body h5 {
-    font-size: 0.85rem;
-    margin-bottom: 0;
-    line-height: 0.5; }
-  .marketing-message .marketing-body a {
-    color: #19427b; }
+  .marketing-message .marketing-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+    .marketing-message .marketing-body h5 {
+      font-size: 0.85rem;
+      margin-bottom: 0;
+      line-height: 0.5; }
+      .marketing-message .marketing-body h5 + small {
+        margin-top: 5px; }
+    .marketing-message .marketing-body a {
+      color: #19427b; }
 
 .footer {
-  border-top: 10px solid #19427b; }
+  border-top: 1px solid #dee2e6; }
   .footer .footer-logo {
     height: 7rem; }
   .footer ul > li > a {
-    color: #19427b;
+    color: #414141;
     text-decoration: none; }
     .footer ul > li > a:hover {
       color: #6c757d; }
 
 .footer-inner {
   padding: 50px 0;
-  background-color: rgba(25, 66, 123, 0.15); }
+  background-color: #fff; }
 
 .footer-copyright {
   padding: 10px 15px;
