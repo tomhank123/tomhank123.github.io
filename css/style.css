@@ -11396,7 +11396,7 @@ body {
       width: calc(25% - 10px); } }
   @media (min-width: 992px) {
     .product {
-      width: calc(20% - 15px); }
+      width: calc(25% - 15px); }
       .product .badge-sale {
         top: -10px;
         right: -10px; } }
@@ -11417,9 +11417,17 @@ body {
   background-color: #19427b; }
 
 .product-thumb {
+  text-align: center;
   margin-bottom: 10px; }
   .product-thumb img {
-    max-width: 100%; }
+    max-width: 100%;
+    max-height: 220px; }
+  @media (min-width: 768px) {
+    .product-thumb img {
+      max-height: 220px; } }
+  @media (min-width: 992px) {
+    .product-thumb img {
+      max-height: 240px; } }
 
 .product-info .product-title {
   margin: 0;
