@@ -8339,7 +8339,8 @@ button.bg-dark:focus {
   padding: 0.25rem !important; }
 
 .pt-1,
-.py-1 {
+.py-1,
+.list-guide li {
   padding-top: 0.25rem !important; }
 
 .pr-1,
@@ -8347,7 +8348,8 @@ button.bg-dark:focus {
   padding-right: 0.25rem !important; }
 
 .pb-1,
-.py-1 {
+.py-1,
+.list-guide li {
   padding-bottom: 0.25rem !important; }
 
 .pl-1,
